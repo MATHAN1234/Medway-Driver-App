@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.matha.medwayhealth.profile">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="InvalidId">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Profile"
+            android:textSize="25sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp" />
+    </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:id="@+id/namelayout"
+        android:layout_below="@id/toolbarprofile"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="50dp">
+        <ImageView
+            android:src="@drawable/ic_account_box_black_24dp"
+            android:layout_width="35dp"
+            android:layout_centerVertical="true"
+            android:layout_height="35dp" />
+        <TextView
+            android:layout_centerVertical="true"
+            android:text="User xyz"
+            android:layout_marginStart="50dp"
+            android:textSize="20sp"
+            android:id="@+id/nametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp">
+        </TextView>
+        <ImageView
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            android:layout_width="30dp"
+            android:layout_alignEnd="@id/nametext"
+            android:layout_centerVertical="true"
+            android:layout_height="30dp"
+            android:layout_alignRight="@id/nametext" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/emaillayout"
+        android:layout_below="@id/namelayout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp">
+        <ImageView
+            android:src="@drawable/ic_email_black_24dp"
+            android:layout_width="35dp"
+            android:layout_centerVertical="true"
+            android:layout_height="35dp" />
+        <TextView
+            android:layout_centerVertical="true"
+            android:text="Userxyz@gmail.com"
+            android:layout_marginStart="50dp"
+            android:textSize="20sp"
+            android:id="@+id/emailtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp">
+        </TextView>
+        <ImageView
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            android:layout_width="30dp"
+            android:layout_alignEnd="@id/emailtext"
+            android:layout_centerVertical="true"
+            android:layout_height="30dp"
+            android:layout_alignRight="@id/emailtext" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/phonelayout"
+        android:layout_below="@id/emaillayout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp">
+        <ImageView
+            android:src="@drawable/ic_phone_android_black_24dp"
+            android:layout_width="35dp"
+            android:layout_centerVertical="true"
+            android:layout_height="35dp" />
+        <TextView
+            android:layout_centerVertical="true"
+            android:text="03313260729"
+            android:layout_marginStart="50dp"
+            android:textSize="20sp"
+            android:id="@+id/phonetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp">
+        </TextView>
+        <ImageView
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            android:layout_width="30dp"
+            android:layout_alignEnd="@id/phonetext"
+            android:layout_centerVertical="true"
+            android:layout_height="30dp"
+            android:layout_alignRight="@id/phonetext" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

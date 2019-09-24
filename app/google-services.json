@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "256300905707",
+    "firebase_url": "https://medwayfinal.firebaseio.com",
+    "project_id": "medwayfinal",
+    "storage_bucket": "medwayfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256300905707:android:511d5574055e6570",
+        "android_client_info": {
+          "package_name": "com.example.matha.medwayfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256300905707-ptbsvulvjlhu8tsprtdtqpdrrg8fics6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.matha.medwayfinal",
+            "certificate_hash": "bc89cbc11a6fe10c5103c916f98ce40a9e7c5416"
+          }
+        },
+        {
+          "client_id": "256300905707-jajhknjjpiqbmujj9bc02i9rbum8b18e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0o8j45shrp1d0yC0bYCRwjK7S_tpr-bg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256300905707-jajhknjjpiqbmujj9bc02i9rbum8b18e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256300905707:android:65355aee98b3a3dc",
+        "android_client_info": {
+          "package_name": "com.example.matha.medwayhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256300905707-okvdaleucm8egmv16lr796i2t1d7hckk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.matha.medwayhealth",
+            "certificate_hash": "bc89cbc11a6fe10c5103c916f98ce40a9e7c5416"
+          }
+        },
+        {
+          "client_id": "256300905707-jajhknjjpiqbmujj9bc02i9rbum8b18e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0o8j45shrp1d0yC0bYCRwjK7S_tpr-bg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256300905707-jajhknjjpiqbmujj9bc02i9rbum8b18e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

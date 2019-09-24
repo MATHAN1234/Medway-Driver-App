@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Medway Patient</string>
+    <string name="login_name">User_Name</string>
+    <string name="large_text">
+        You can contact and book the nearest ambulance from your location to pick patient up.
+        the application will be able to provide with some first aid information.
+        In cases a user needs blood, a notification will be sent to their friends.
+        the application will show users with pharmacies and blood banks near him.
+        Patient will get accurate arrival times of their Ambulances.
+        The application will decide on the basis of the injury, the nearest hospital.
+        the application will calculate the shortest path to reach the destination hospital.
+        The application will also calculate the less traffic routes to reach to the destination.\n\n"
+    </string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="google_direction_api">AIzaSyCOfXZ1t0bafjjrC6rf7FrhaLwN6O6TQG4</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_driver_tracking">Map</string>
+    <string name="title_activity_navigation">Home</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">Map</string>
+    <string name="title_activity_map">Map</string>
+</resources>

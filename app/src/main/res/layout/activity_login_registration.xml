@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#ffffff"
+    tools:context=".LoginRegistrationActivity">
+
+
+    <LinearLayout
+        android:id="@+id/first_layout"
+        android:layout_width="154dp"
+        android:layout_height="104dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/icon1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/first_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="M E D W A Y "
+        android:layout_marginTop="120dp"
+        android:textSize="22dp"
+        android:textColor="@android:color/holo_red_dark"
+
+        />
+    <TextView
+        android:id="@+id/driver_App"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Driver's Application"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:text="Login"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="5dp"
+            android:id="@+id/phone_text"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:layout_marginTop="5dp"
+            android:id="@+id/password_text"
+            android:selectAllOnFocus="true" />
+
+        <Button
+            android:text="SIGN IN"
+            android:id="@+id/btn_signIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@android:color/holo_red_dark"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+
+            android:background="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:text="Forgot PIN?"
+            android:textColor="#1E90FF"
+            android:id="@+id/buttonfor"
+
+            />
+        <TextView
+
+            android:background="#ffffff"
+            android:layout_marginTop="-2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:text="Don't have an account? Sign Up"
+            android:textColor="#1E90FF"
+            android:id="@+id/buttonUp"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

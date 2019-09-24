@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:text="Heart"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_heart"
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:text="Skinn"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_skin"
+        android:onClick="onClick"
+        android:layout_below="@+id/btn_heart"
+        android:layout_alignStart="@+id/btn_heart"
+        android:layout_marginTop="24dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_red_dark"
+        android:layout_alignLeft="@+id/btn_heart" />
+
+    <Button
+        android:text="Neural"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_neural"
+        android:onClick="onClick"
+        android:layout_marginBottom="14dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_red_dark"
+        android:layout_above="@+id/btn_fractures"
+        android:layout_alignStart="@+id/btn_fractures"
+        android:layout_alignLeft="@+id/btn_fractures" />
+
+    <Button
+        android:text="Paralysis"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_paralysis"
+        android:onClick="onClick"
+        android:layout_marginBottom="20dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_red_dark"
+        android:layout_above="@+id/btn_headinjury"
+        android:layout_alignStart="@+id/btn_fractures"
+        android:layout_alignLeft="@+id/btn_fractures" />
+
+    <Button
+        android:text="Fractures"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_fractures"
+        android:onClick="onClick"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_red_dark"
+        android:layout_above="@+id/btn_paralysis"
+        android:layout_alignStart="@+id/btn_skin"
+        android:layout_marginBottom="16dp"
+        android:layout_alignLeft="@+id/btn_skin" />
+
+    <Button
+        android:text="Head Injury"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_headinjury"
+        android:onClick="onClick"
+        android:layout_marginBottom="105dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_red_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btn_paralysis"
+        android:layout_alignLeft="@+id/btn_paralysis" />
+
+</RelativeLayout>
